@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="option-box">
+        <h4 class="option-menu"><i class="fas fa-cog"></i> colors</h4>
+        <ul class="colors-list">
+            <li class="active bul" data-color="#dc3545"></li>
+            <li class="bul" data-color="#ff9800"></li>
+            <li class="bul" data-color="rgb(95, 143, 233)"></li>
+            <li class="bul" data-color="#28a745"></li>
+        </ul>
+    </div>
+    <!-- -------------------- | Start Header | ------------------------ -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="box">
+                <div class="logo">
+                    <img src="img/logo_1627421214812.png" alt="">
+                </div>
+                <div class="nav">
+                    <i class="fas fa-bars fa-2x menu"></i>
+                    <ul class="ul">
+                        <li class="home"><a class="bul active" href="#">home</a>
+                            <ul class="home-page">
+                                <li><a href="#">home 1</a></li>
+                                <li><a href="#">home 2</a></li>
+                                <li><a href="#">static intro</a></li>
+                                <li><a href="#">singlec page</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="bul" href="#">about</a></li>
+                        <li class="services-page"><a class="bul" href="#">services</a>
+                            <ul class="services-ul">
+                                <li><a href="#">services 1</a></li>
+                                <li><a href="#">services 2</a></li>
+                                <li><a href="#">services 3</a></li>
+                                <li><a href="#">services 4</a></li>
+                                <li><a href="#">services 5</a></li>
+                                <li><a href="#">single service</a></li>
+                            </ul>
+                        </li>
+                        <li class="works-page"><a class="bul" href="#">works</a>
+                            <ul class="works-ul">
+                                <li><a href="#">galleru regular</a></li>
+                                <li><a href="#">gallery title</a></li>
+                                <li><a href="#">gallery</a></li>
+                                <li><a href="#">tiled gallery</a></li>
+                                <li><a href="#">gallery list</a></li>
+                                <li><a href="#">gallery item</a></li>
+                            </ul>
+                        </li>
+                        <li class="pages-page"><a class="bul" href="#">pages</a>
+                            <ul class="pages-ul">
+                                <li><a href="#">process</a></li>
+                                <li><a href="#">clients</a></li>
+                                <li><a href="#">testimonials</a></li>
+                                <li><a href="#">pricing</a></li>
+                                <li><a href="#">shop</a></li>
+                                <li><a href="#">shortcodes</a></li>
+                            </ul>
+                        </li>
+                        <li class="blog-page"><a class="bul" href="#">blog</a>
+                            <ul class="blog-ul">
+                                <li><a href="#">blog 1</a></li>
+                                <li><a href="#">blog 2</a></li>
+                                <li><a href="#">blog 3</a></li>
+                                <li><a href="#">blog 4</a></li>
+                                <li><a href="#">blog list</a></li>
+                                <li><a href="#">blog masonry</a></li>
+                                <li><a href="#">post</a></li>
+                                <li><a href="#">vıdeo post</a></li>
+                            </ul>
+                        </li>
+                        <li class="contact-page"><a class="bul" href="#">contacts</a>
+                            <ul class="contact-ul">
+                                <li><a href="#">contact 1</a></li>
+                                <li><a href="#">contact 2</a></li>
+                                <li><a href="#">contact 3</a></li>
+                                <li><a href="#">contact 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="features-page"><a class="bul" href="#">features</a>
+                            <ul class="features-ul">
+                                <li><a href="#">header type 1</a></li>
+                                <li><a href="#">header type 2</a></li>
+                                <li><a href="#">header type 3</a></li>
+                                <li><a href="#">header type 4</a></li>
+                                <li><a href="#">header type 5</a></li>
+                                <li><a href="#">header type 6</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- -------------------- | End Header | ------------------------ -->
+    <section class="home" id="home">
+        <div class="slide-container">
+            <!-- Start One Slide -->
+            <div class="slide one">
+                <!-- <div class="img">
+                </div> -->
+                <div class="content">
+                    <h2>modren</h2>
+                    <h1>marketting design<br>that works</h1>
+                    <a class="btn" href="#">get stated</a>
+                    <a class="btn btn-tow" href="#">ourfolio</a>
+                </div>
+            </div>
+            <!-- Start Tow Slide -->
+            <div class="slide active tow">
+                <!-- <div class="img">
+                </div> -->
+                <div class="content">
+                    <h3>solutions</h3>
+                    <h1>marketing</h1>
+                    <h2>online</h2>
+                    <a class="btn" href="#">get stated</a>
+                </div>
+            </div>
+            <!-- Start Three Slide -->
+            <div class="slide thre">
+                <!-- <div class="img">
+                </div> -->
+                <div class="content">
+                    <h3>welcome to</h3>
+                    <h1>it adency</h1>
+                    <h2>
+                        <span>web deign</span>,<br>
+                        <span>marketing</span> &
+                        <span>branding</span>
+                    </h2>
+                    <a class="btn" href="#">get stated</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+        <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+    </section>
+    <!-- -------------------- | End Header | ------------------------ -->
+
+    <!-- -------------------- | Start About | ------------------------ -->
+    <section class="about padding-100">
+        <div class="title title-t"></div>
+        <div class="container">
+            <div class="box">
+                <div class="text">
+                    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, nostrum!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos cum in beatae, sunt fugit molestiae, alias laborum incidunt consequatur <b>mollitia tempore magni sint eius</b> inventore distinctio voluptates quaerat quae molestias.</p>
+                </div>
+            </div>
+        </div>
+        <div class="title title-b"></div>
+    </section>
+    <!-- -------------------- | End About | ------------------------ -->
+
+    <!-- -------------------- | Start Services | ------------------------ -->
+    <div class="link-se">
+        <div class="container">
+            <br>
+            <a href="#" class="btn">get started</a>
+            <br><br>
+        </div>
+    </div>
+    <section class="services padding-100" id="services">
+        <div class="container">
+            <div class="title title-t"></div>
+            <div class="box">
+                <!-- Start one -->
+                <div class="text">
+                    <img src="img-tow/service_icon_1-1.png" alt="">
+                    <h2>Marketing</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur aut sequi repudiandae.</p>
+                </div>
+                <!-- Start tow -->
+                <div class="text">
+                    <img src="img-tow/service_icon_2-1.png" alt="">
+                    <h2>Development</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur aut sequi repudiandae.</p>
+                </div>
+                <!-- Start thre -->
+                <div class="text">
+                    <img src="img-tow/service_icon_3-1.png" alt="">
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur aut sequi repudiandae.</p>
+                </div>
+                <!-- Start four -->
+                <div class="text">
+                    <img src="img-tow/service_icon_4-1.png" alt="">
+                    <h2>Seo Optimization</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur aut sequi repudiandae.</p>
+                </div>
+                <!-- Start fife -->
+                <div class="text">
+                    <img src="img-tow/service_icon_5-1.png" alt="">
+                    <h2>Ecommerce</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur aut sequi repudiandae.</p>
+                </div>
+                <!-- Start six -->
+                <div class="text">
+                    <img src="img-tow/service_icon_6-1.png" alt="">
+                    <h2>Branding</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur aut sequi repudiandae.</p>
+                </div>
+            </div>
+            <div class="title title-b"></div>
+        </div>
+    </section>
+    <!-- -------------------- | End Services | ------------------------ -->
+
+    <!-- -------------------- | Start works | ------------------------ -->
+    <section class="works padding-100" id="works">
+        <div class="container">
+            <div class="box">
+                <div class="title title-t"></div>
+
+                    <!-- Start One -->
+                    <div class="info">
+                        <div class="text">
+                            <h1 class="one">01<strong>Strategy</strong></h1>
+                            <img src="img/photo-1536060316316-2466bda904f1.jpeg" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio temporibus pariatur aut eius repellendus veniam?</p>
+                        </div>
+                    </div>
+                    <!-- Start One -->
+                    <div class="info">
+                        <div class="text">
+                            <h1 class="tow">02<strong>Strategy</strong></h1>
+                            <img src="img/photo-1602265568624-29e8dc535bd6.jpeg" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio temporibus pariatur aut eius repellendus veniam?</p>
+                        </div>
+                    </div>
+                    <!-- Start One -->
+                    <div class="info">
+                        <div class="text">
+                            <h1 class="thre">03<strong>Strategy</strong></h1>
+                            <img src="img/photo-1612171709946-7fc1298a5a53.jpeg" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio temporibus pariatur aut eius repellendus veniam?</p>
+                        </div>
+                    </div>
+                    <!-- Start One -->
+                    <div class="info">
+                        <div class="text">
+                            <h1 class="four">04<strong>Strategy</strong></h1>
+                            <img src="img/photo-1621570359764-f297bc0d471b.jpeg" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio temporibus pariatur aut eius repellendus veniam?</p>
+                        </div>
+                    </div>
+
+
+                <div class="title title-b"></div>
+            </div>
+        </div>
+    </section>
+    <!-- -------------------- | End works | ------------------------ -->
+
+    <div class="link-se">
+        <div class="container">
+            <br>
+            <a href="#" class="btn">get started</a>
+            <br><br>
+        </div>
+    </div>
+
+    <!-- -------------------- | Start portfolio | ------------------------ -->
+    <section class="portfolio padding-100" id="pages">
+        <div class="title title-t"></div>
+        <div class="container-fuild">
+            <!-- Start Ling -->
+            <div class="row">
+                <div class="col">
+                    <span class="filter-item active" data-filter="all">all</span>
+                    <span class="filter-item" data-filter="webdesign">web design</span>
+                    <span class="filter-item" data-filter="logo">logo</span>
+                    <span class="filter-item" data-filter="advertisement">advertisement</span>
+                    <span class="filter-item" data-filter="branding">branding</span>
+                    <span class="filter-item" data-filter="design">dedign</span>
+                    <span class="filter-item" data-filter="photo">photo</span>
+                </div>
+            </div>
+
+            <!-- Start Gallery -->
+            <div class="gallery">
+                <!-- Start One -->
+                <div class="gallery-item webdesign">
+                    <div class="gallery-item-inner">
+                        <img src="img/photo-1621570359764-f297bc0d471b.jpeg" alt="">
+                        <div class="text">
+                            <h3>web-disegn</h3>
+                            <a href="#">Clothes Badge Dedign</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start tow -->
+                <div class="gallery-item logo">
+                    <div class="gallery-item-inner">
+                        <img src="img/photo-1612171709946-7fc1298a5a53.jpeg" alt="">
+                        <div class="text">
+                            <h3>logo design</h3>
+                            <a href="#">Clothes Badge Dedign</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start thre -->
+                <div class="gallery-item advertisement">
+                    <div class="gallery-item-inner">
+                        <img src="img/photo-1602265568624-29e8dc535bd6.jpeg" alt="">
+                        <div class="text">
+                            <h3>advertisement</h3>
+                            <a href="#">Clothes Badge Dedign</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start four -->
+                <div class="gallery-item branding">
+                    <div class="gallery-item-inner">
+                        <img src="img/photo-1536060316316-2466bda904f1.jpeg" alt="">
+                        <div class="text">
+                            <h3>branding</h3>
+                            <a href="#">Clothes Badge Dedign</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start fife -->
+                <div class="gallery-item design">
+                    <div class="gallery-item-inner">
+                        <img src="img/photo-1499951360447-b19be8fe80f5.png" alt="">
+                        <div class="text">
+                            <h3>design</h3>
+                            <a href="#">Clothes Badge Dedign</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Start sıx -->
+                <div class="gallery-item photo">
+                    <div class="gallery-item-inner">
+                        <img src="img/photo-1475669698648-2f144fcaaeb1.jpeg" alt="">
+                        <div class="text">
+                            <h3>photo</h3>
+                            <a href="#">Clothes Badge Dedign</a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+
+            <!-- Start Left To Right -->
+            <div id="prev" class="fas fa-chevron-left" onclick="prevA()"></div>
+            <div id="next" class="fas fa-chevron-right" onclick="nextA()"></div>
+
+            <!-- Start Tem -->
+            <div class="tem">
+                <div class="container">
+                    <div class="box">
+                        <div class="textG">
+                            <span class="bul active" data-tem="one">Gregory F.Parrino <b>CEO</b>|</span>
+                            <span class="bul" data-tem="tow">Letha L.Young<b>Desginer </b>|</span>
+                            <span class="bul" data-tem="three">Harold D.Cote<b>Developer </b>|</span>
+                            <span class="bul" data-tem="four">Oren R.Odom<b>Marketer </b>|</span>
+                        </div>
+                        <div class="gallery-img">
+                            <img class="gal-img one active" src="img/advert2.png" alt="">
+                            <img class="gal-img tow" src="img/advert1.png" alt="">
+                            <img class="gal-img three" src="img/advert3.png" alt="">
+                            <img class="gal-img four" src="img/banner.png" alt="">
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="title title-b"></div>
+    </section>
+    <!-- -------------------- | End portfolio | ------------------------ -->
+
+    <div class="link-se">
+        <div class="container">
+            <br>
+            <a href="#" class="btn">get started</a>
+            <br><br>
+        </div>
+    </div>
+
+    <!-- -------------------- | Start blog | ------------------------ -->
+    <section class="blog padding-100" id="blog">
+    <div class="title title-t"></div>
+        <div class="container">
+            <div class="text">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, veritatis!</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur cupiditate culpa ducimus non corporis quaerat quisquam doloremque optio nisi labore ab aliquam voluptates, earum pariatur. Facilis illo rerum, numquam odit doloribus iste totam dolorum deserunt aliquam placeat quisquam consequatur debitis?</p>
+            </div>
+            <div class="box">
+                <div class="title title-t"></div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="img/photo-1621525271268-6431feda56b0.jpeg" alt="">
+                        <div class="info">
+                            <h3>Annual Report <br> 2017-2018</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi magnam fuga ad ullam minus molestiae?</p>
+                            <a href="#">buy it now</a>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="img/23fa2caccca9ad542c2dd002eb84e6b3.jpg" alt="">
+                        <div class="info active">
+                            <h3>Tools Of Trading: Moderm <br> Marketing</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, eaque consectetur magnam inventore natus illum.</p>
+                            <a href="#">buy it now</a>
+                        </div>
+                    </div>
+                    <div class="item-img">
+                        <img src="img/photo-1536060316316-2466bda904f1.jpeg" alt="">
+                        <div class="info">
+                            <h3>Business Magazine: <br> Desgin</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, eaque consectetur magnam inventore natus illum.</p>
+                            <a href="#">buy it now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="title title-b"></div>
+    </section>
+    <!-- -------------------- | End blog | ------------------------ -->
+
+    <div class="link-se">
+        <div class="container">
+            <br>
+            <a href="#" class="btn">get started</a>
+            <br><br>
+        </div>
+    </div>
+
+    <!-- -------------------- | Start contacts | ------------------------ -->
+    <section class="contacts padding-100" id="contacts">
+        <div class="title title-t"></div>
+
+        <div class="container padding-50">
+            <div class="box">
+                <div class="text">
+                    <h3>decemper 15, 2017</h3>
+                    <h2>Weekly Meeting In Companies Think Room</h2>
+                    <a href="#">by admin</a>
+                </div>
+                <div class="text">
+                    <h3>decemper 15, 2017</h3>
+                    <h2>Weekly Meeting In Companies Think Room</h2>
+                    <a href="#">by admin</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-tem padding-100">
+            <div class="container">
+                <div class="box-tem">
+                    <div class="text-tem">
+                        <div class="item-tem one active">
+                            <img class="" src="img/profile1.jpg" alt="">
+                            <h3>eye insurance</h3>
+                            <h2>George M.Baty</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, vero veniam enim minima ea esse blanditiis rem corporis consequuntur ex quas magni quia laboriosam quam reprehenderit commodi unde perspiciatis quidem.</p>
+                        </div>
+                        <div class="item-tem tow">
+                            <img class="" src="img/profile2.jpg" alt="">
+                            <h3>eye insurance</h3>
+                            <h2>George M.Baty</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, vero veniam enim minima ea esse blanditiis rem corporis consequuntur ex quas magni quia laboriosam quam reprehenderit commodi unde perspiciatis quidem.</p>
+                        </div>
+                        <div class="item-tem three">
+                            <img class="" src="img/profile3.jpg" alt="">
+                            <h3>eye insurance</h3>
+                            <h2>George M.Baty</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, vero veniam enim minima ea esse blanditiis rem corporis consequuntur ex quas magni quia laboriosam quam reprehenderit commodi unde perspiciatis quidem.</p>
+                        </div>
+                    </div>
+                    <div class="bul-tem">
+                        <span class="bul active" data-contactTem="one"></span>
+                        <span class="bul" data-contactTem="tow"></span>
+                        <span class="bul" data-contactTem="three"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="title title-b"></div>
+        </div>
+
+    </section>
+    <!-- -------------------- | End contacts | ------------------------ -->
+
+    <!-- -------------------- | Start pro | ------------------------ -->
+    <section class="pro padding-100">
+        <div class="title title-t"></div>
+
+        <div class="container">
+            <div class="box">
+                <h2>Lets Get Started Your Project</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, ex?</p>
+            </div>
+        </div>
+
+        <div class="title title-b"></div>
+    </section>
+    <!-- -------------------- | End pro | ------------------------ -->
+
+    <div class="link-se a">
+        <div class="container">
+            <br>
+            <a href="#" class="btn">get started</a>
+            <br><br>
+        </div>
+        <div class="title title-b"></div>
+    </div>
+
+    <!-- -------------------- | Start features | ------------------------ -->
+    <section class="features padding-100" id="features">
+        <div class="title title-t"></div>
+        
+        <div class="container">
+            <div class="box">
+                <!-- Text One -->
+                <div class="text">
+                    <img src="img-tow/icon1.png" alt="">
+                    <h2>Call Us</h2>
+                    <span><b>New Accounts:</b>05536685893</span><br>
+                    <span><b>Support:</b>05536685893</span>
+                </div>
+                <!-- Text tow -->
+                <div class="text">
+                    <img src="img-tow/icon2.png" alt="">
+                    <h2>Write Us</h2>
+                    <span>ahmad6068@gamil.com</span><br>
+                    <span>ahmad@gamil.com</span>
+                </div>
+                <!-- Text three -->
+                <div class="text">
+                    <img src="img-tow/icon3.png" alt="">
+                    <h2>Visit Us</h2>
+                    <span>Gazi Antep - Nizip</span><br>
+                    <span>Ahmad Helal</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="title title-b"></div>
+    </section>
+    <!-- -------------------- | End features | ------------------------ -->
+
+    <!-- -------------------- | Start footer | ------------------------ -->
+    <footer class="footer">
+        <!-- <div class="container"> -->
+            <div class="box-top padding-50">
+                <h1>Dot<strong>Creative</strong></h1>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-google"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="box">
+                <p>&copy; copyright 2021 all rights reserved</p>
+            </div>
+        <!-- </div> -->
+    </footer>
+    <!-- -------------------- | End footer | ------------------------ -->
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
